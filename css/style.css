@@ -9,6 +9,10 @@ body {
   background-color: #fff;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
 .gray-bg{
   background-color: #e0e0e0;
 }
@@ -811,3 +815,168 @@ strong {
 }
 
 /*End of  Better Itenary page */
+
+
+/*Start of About us page*/
+.margin_80_55 {
+    padding-top: 80px;
+    padding-bottom: 55px;
+}
+
+.main_title_2 {
+    text-align: center;
+    margin-bottom: 45px;
+    position: relative;
+}
+.main_title_2 span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+}
+.main_title_2 span em {
+    width: 60px;
+    height: 2px;
+    background-color: #fc5b62;
+    display: block;
+    margin: auto;
+}
+.main_title_2 h2, .main_title_2 h3 {
+    margin: 25px 0 0;
+}
+
+.main_title_2 p, .main_title_3 p {
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.main_title_2 p {
+    font-size: 24px;
+}
+
+.box_grid a.wish_bt, a.box_feat {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+
+a.box_feat {
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px 30px;
+    display: block;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 0 3px 0 0 #f0f2f4;
+    -moz-box-shadow: 0 3px 0 0 #f0f2f4;
+    box-shadow: 0 3px 0 0 #f0f2f4;
+    color: #555;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+a.box_feat i {
+    font-size: 70px;
+    color: #32a067;
+    margin-bottom: 10px;
+}
+a.box_feat h3 {
+    font-size: 18px;
+}
+
+.justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.block-reveal img{
+  max-width: 100%;
+  max-height: 400px;
+}
+/*End of About us page*/
+
+
+/*Start of Common footer*/
+footer {
+    background-color: #121921;
+    color: #fbfbfb;
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+}
+.follow_us {
+    margin-top: 15px;
+    animation-delay: 1.1s;
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+}
+.follow_us ul li:first-child {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.follow_us ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+.follow_us ul li, footer ul li a i, footer ul.contacts li a i {
+    margin-right: 10px;
+}
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer h5 {
+    color: #fff;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+ul#additional_links li a {
+    color: #fff;
+    opacity: .5;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+footer ul li a {
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    opacity: .7;
+}
+#newsletter input[type=submit], footer ul li a {
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+footer ul li a, header.header.sticky {
+    -moz-transition: all .3s ease-in-out;
+}
+
+ul#additional_links {
+    margin: 0;
+    padding: 8px 0 0;
+    color: #555;
+    float: right;
+}
+
+ul#additional_links li:after {
+    content: "|";
+    font-weight: 300;
+    position: relative;
+    left: 10px;
+}
+
+/*End of Common footer*/
